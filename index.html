@@ -75,9 +75,12 @@
                 <div id="image-slider">
                   <ul>
                     <li class="active-img">
-                      <div class="slide-caption">
-                        <h3>Bienvenido a ZPro</h3>
-                        <h2>Combatamos la procrastinación <br> y seamos más productivos <br>¿De acuerdo?</h2>
+                      <div class="slide-caption col-sm-10">
+                        <div id="zpro-tittle">
+                            <h3>Bienvenido a ZPro</h3>
+                            <h2>Combatamos la procrastinación y seamos más productivos.</h2>
+                            <h2>¿De acuerdo?</h2>
+                        </div>
                       </div>
                     </li>
                     <li>
@@ -108,10 +111,28 @@
                     <article id='tabs-1'>
                       <h2>CREACIÓN DE HORARIOS</h2>
                       <span>Crea tu horario personalizado</span>
-                      <div class="div-content">
-                        <label for="">Nombre</label>
-                        <input type="text">
-                      </div>
+                      
+                      <form>
+                        <div class="form-group">
+                          <label for="txtName">Nombre</label>
+                          <input type="text" class="form-control" id="txtName" placeholder="Nombre">
+                        </div>
+
+                        <div class="form-group">
+                          <label for="txtLastName">Apellido</label>
+                          <input type="text" class="form-control" id="txtLastName" placeholder="Apellido">
+                        </div>
+                        
+                        <div class="form-group">
+                          <label for="txtCellphone">Celular</label>
+                          <input type="text" class="form-control" id="txtCellphone" placeholder="Celular">
+                        </div>
+                        
+                        <div class="form-group">
+                          <label for="txtEmail">Correo electrónico</label>
+                          <input type="text" class="form-control" id="txtEmail" placeholder="Correo electrónico">
+                        </div>
+                      </form>
                     </article>
 
                     <article id='tabs-2'>
